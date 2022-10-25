@@ -26,8 +26,6 @@ require_once 'selectCategorias.php';
         <a href="edit.php?post_id=<?=$post['post_id']?>">Editar</a>
         <a href="delete.php?post_id=<?=$post['post_id']?>">Deletar</a>
         <hr>
-
-
     <?php endforeach; ?>
 
 </div>
